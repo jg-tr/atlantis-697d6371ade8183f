@@ -3,7 +3,7 @@ provider "google" {
   project = "com-isip-cug01-prep"
 }
 
-resource "google_compute_instance" "default" {
+resource "google_compute_instance" "blarg" {
   name         = "test"
   machine_type = "n1-standard-1"
   zone         = "us-central1-a"
