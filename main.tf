@@ -4,7 +4,7 @@ provider "google" {
 }
 
 resource "google_compute_instance" "default" {
-  name         = "atlantis-just-built-this-vm-_-_-wow"
+  name         = "atlantis-just-built-this-vm---wow"
   machine_type = "n1-standard-1"
   zone         = "us-central1-a"
 
